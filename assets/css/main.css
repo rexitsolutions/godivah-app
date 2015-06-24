@@ -71,6 +71,10 @@
 		background: #fff;
 		overflow: hidden;
 	}
+    bodyabout {
+		background: #fff;
+		overflow: scroll;
+	}
 
 		body.loading * {
 			-moz-animation: none !important;
@@ -333,9 +337,21 @@
 		text-align: center;
 		top: 0;
 		width: 100%;
+        
 	}
-
-		#main:before {
+    
+    #about {
+		height: 80%;
+        left: 0;
+        top: 0;
+		padding: 20px 10px 0px 10px;
+        position: fixed;
+		text-align: center;
+		width: 105%;
+        overflow: auto;
+        
+	}
+    #main:before {
 			content: '';
 			display: inline-block;
 			height: 100%;
